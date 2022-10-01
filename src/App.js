@@ -1,5 +1,8 @@
 import React from "react";
 import Hello from "./hello";
+import MyComponent from "./MyComponent";
+import Counter from "./Counter";
+import Say from "./Say";
 import './App.css';
 
 function App() {
@@ -23,6 +26,11 @@ function App() {
       <div style={style}>{name}</div>
       {/* CSS class 를 설정 할 때에는 class= 가 아닌 className= 으로 설정해줘야 한다. */}
       <div className="gray-box"></div>
+      <MyComponent name={"React"} favoriteNumber={1}>리액트</MyComponent>
+      <br/>
+      <Counter/>
+      <br/>
+      <Say/>
     </>
   );
 }
