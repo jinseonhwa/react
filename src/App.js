@@ -3,6 +3,7 @@ import Hello from "./hello";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
 import Say from "./Say";
+import ValidationSample from "./ValidationSample";
 import './App.css';
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
       <Counter/>
       <br/>
       <Say/>
+      <br/>
+      <ValidationSample/>
     </>
   );
 }
